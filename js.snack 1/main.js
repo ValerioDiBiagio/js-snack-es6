@@ -32,4 +32,18 @@ for (let i = 0; i < bikes.length; i++) {
 }
 
 console.log(arrayBikes);
+
+// ordinare gli elementi dal numero più basso al più alto
+
+arrayBikes.sort();
+console.log(arrayBikes);
+
+// trovare la bici con il peso minore
+
+for (let i = 0; i < bikes.length; i++) {
     
+    if (arrayBikes[0] === bikes[i].weight) {
+        console.log(bikes[i].name);
+    }
+}
+
